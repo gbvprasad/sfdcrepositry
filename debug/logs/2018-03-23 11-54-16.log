@@ -1,0 +1,42 @@
+34.0 APEX_CODE,DEBUG;APEX_PROFILING,INFO;CALLOUT,INFO;DB,INFO;SYSTEM,DEBUG;VALIDATION,INFO;VISUALFORCE,DEBUG;WAVE,INFO;WORKFLOW,INFO
+Execute Anonymous: List_Demo a = new List_Demo();
+Execute Anonymous: 
+Execute Anonymous: List<String>myList = new List<String>{'a','b','c'};
+Execute Anonymous: System.debug(myList); // DEBUG|(a, b, c)
+Execute Anonymous: List<Account> acs = [SELECT Id FROM Account LIMIT 2];
+Execute Anonymous: System.debug(acs);
+23:24:15.6 (6930783)|USER_INFO|[EXTERNAL]|0057F000001fsdl|sfdcdevinstance.gbvprasad@gmail.com|Pacific Standard Time|GMT-07:00
+23:24:15.6 (6961248)|EXECUTION_STARTED
+23:24:15.6 (6967429)|CODE_UNIT_STARTED|[EXTERNAL]|execute_anonymous_apex
+23:24:15.6 (9490815)|SYSTEM_MODE_ENTER|false
+23:24:15.6 (9771029)|USER_DEBUG|[7]|DEBUG|1
+23:24:15.6 (9843429)|USER_DEBUG|[8]|DEBUG|(1, 2)
+23:24:15.6 (9883282)|USER_DEBUG|[9]|DEBUG|false
+23:24:15.6 (9916019)|USER_DEBUG|[10]|DEBUG|2
+23:24:15.6 (9968550)|USER_DEBUG|[12]|DEBUG|(2)
+23:24:15.6 (10036568)|USER_DEBUG|[14]|DEBUG|(1, 2)
+23:24:15.6 (10076145)|USER_DEBUG|[16]|DEBUG|()
+23:24:15.6 (10092743)|SYSTEM_MODE_EXIT|false
+23:24:15.6 (10178494)|USER_DEBUG|[4]|DEBUG|(a, b, c)
+23:24:15.6 (10344483)|SOQL_EXECUTE_BEGIN|[5]|Aggregations:0|SELECT Id FROM Account LIMIT 2
+23:24:15.6 (23445749)|SOQL_EXECUTE_END|[5]|Rows:2
+23:24:15.6 (23645289)|USER_DEBUG|[6]|DEBUG|(Account:{Id=0017F00000ZTvpOQAT}, Account:{Id=0017F00000ZTvpPQAT})
+23:24:15.23 (23686366)|CUMULATIVE_LIMIT_USAGE
+23:24:15.23 (23686366)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 1 out of 100
+  Number of query rows: 2 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+23:24:15.23 (23686366)|CUMULATIVE_LIMIT_USAGE_END
+
+23:24:15.6 (23731138)|CODE_UNIT_FINISHED|execute_anonymous_apex
+23:24:15.6 (24942985)|EXECUTION_FINISHED

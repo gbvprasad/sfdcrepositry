@@ -1,0 +1,4 @@
+<apex:page controller="List_sum">
+min{!min}
+max{!max}
+</apex:page>

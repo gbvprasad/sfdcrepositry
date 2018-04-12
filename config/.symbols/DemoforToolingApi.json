@@ -1,0 +1,152 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 8,
+                "line": 7
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "DemoforToolingApi",
+            "parameters": [],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "DemoforToolingApi",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "DemoforToolingApi",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 15,
+                "line": 13
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "httpCalloutMethod",
+            "parameters": [
+                {
+                    "name": "str",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        }
+    ],
+    "name": "DemoforToolingApi",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 15,
+                "line": 3
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "returnValuestr",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 4
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "response",
+            "references": [],
+            "type": "System.HttpResponse"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 13,
+                "line": 5
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "http",
+            "references": [],
+            "type": "System.Http"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 6
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "request",
+            "references": [],
+            "type": "System.HttpRequest"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 15,
+                "line": 12
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "sToken",
+            "references": [],
+            "type": "String"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 1
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "DemoforToolingApi",
+        "references": [],
+        "type": "DemoforToolingApi"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 13
+            },
+            "modifiers": [],
+            "name": "str",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 8,
+                "line": 19
+            },
+            "modifiers": [],
+            "name": "getORGURL",
+            "references": [],
+            "type": "String"
+        }
+    ]
+}

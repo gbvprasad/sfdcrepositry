@@ -1,0 +1,142 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "JWTBearerFlow",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "JWTBearerFlow",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 3
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getAccessToken",
+            "parameters": [
+                {
+                    "name": "tokenEndpoint",
+                    "type": "String"
+                },
+                {
+                    "name": "jwt",
+                    "type": "JWT"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        }
+    ],
+    "name": "JWTBearerFlow",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 1
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "JWTBearerFlow",
+        "references": [],
+        "type": "JWTBearerFlow"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 48,
+                "line": 3
+            },
+            "modifiers": [],
+            "name": "tokenEndpoint",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 67,
+                "line": 3
+            },
+            "modifiers": [],
+            "name": "jwt",
+            "references": [],
+            "type": "JWT"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 4
+            },
+            "modifiers": [],
+            "name": "access_token",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 5
+            },
+            "modifiers": [],
+            "name": "body",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 6
+            },
+            "modifiers": [],
+            "name": "req",
+            "references": [],
+            "type": "System.HttpRequest"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 11
+            },
+            "modifiers": [],
+            "name": "http",
+            "references": [],
+            "type": "System.Http"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 12
+            },
+            "modifiers": [],
+            "name": "res",
+            "references": [],
+            "type": "System.HttpResponse"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 14
+            },
+            "modifiers": [],
+            "name": "parser",
+            "references": [],
+            "type": "System.JSONParser"
+        }
+    ]
+}

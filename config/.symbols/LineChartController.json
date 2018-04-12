@@ -1,0 +1,173 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "LineChartController",
+    "innerClasses": [
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 18
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "dataWrapper",
+                    "parameters": [
+                        {
+                            "name": "name",
+                            "type": "String"
+                        },
+                        {
+                            "name": "value",
+                            "type": "Integer"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": "DataWrapper",
+            "innerClasses": [],
+            "interfaces": [],
+            "key": "DataWrapper",
+            "methods": [],
+            "name": "DataWrapper",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 16
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "name",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 17
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "data",
+                    "references": [],
+                    "type": "Decimal"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 15
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "DataWrapper",
+                "references": [],
+                "type": "DataWrapper"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 35,
+                        "line": 18
+                    },
+                    "modifiers": [],
+                    "name": "name",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 49,
+                        "line": 18
+                    },
+                    "modifiers": [],
+                    "name": "value",
+                    "references": [],
+                    "type": "Integer"
+                }
+            ]
+        }
+    ],
+    "interfaces": [],
+    "key": "LineChartController",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 3
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getData",
+            "parameters": [],
+            "references": [],
+            "returnType": "List",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 6
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getChartData",
+            "parameters": [],
+            "references": [],
+            "returnType": "List",
+            "type": null
+        }
+    ],
+    "name": "LineChartController",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 1
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "LineChartController",
+        "references": [],
+        "type": "LineChartController"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 7
+            },
+            "modifiers": [],
+            "name": "dataWrap",
+            "references": [],
+            "type": "List<LineChartController.DataWrapper>"
+        }
+    ]
+}

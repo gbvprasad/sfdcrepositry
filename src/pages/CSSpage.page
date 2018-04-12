@@ -1,0 +1,21 @@
+<apex:page >
+
+<style>
+
+.styleme
+
+{
+
+  margin:o;
+
+}
+
+</style>
+
+     <div class="styleme">
+
+             Hi!!! I am styled!!!
+
+     </div>
+
+</apex:page>

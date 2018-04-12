@@ -1,0 +1,16 @@
+{
+    "projectName": "Helloworld",
+    "username": "sfdcdevinstance.gbvprasad@gmail.com",
+    "id": "5e80f530-2b5e-11e8-a828-e5a0427bfbdd",
+    "namespace": "",
+    "environment": "developer",
+    "loginUrl": "https://login.salesforce.com/",
+    "workspace": "D:\\Salesforce",
+    "subscription": [
+        "ApexClass",
+        "ApexComponent",
+        "ApexPage",
+        "ApexTrigger",
+        "StaticResource"
+    ]
+}

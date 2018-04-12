@@ -1,0 +1,29 @@
+<apex:page controller="AccountRest">
+ 
+    <!-- 
+    /**
+     * Webkul Software.
+     *
+     * @category  Webkul
+     * @author    Webkul
+     * @copyright Copyright (c) 2010-2016 Webkul Software Private Limited (https://webkul.com)
+     * @license   https://store.webkul.com/license.html
+     */
+     -->
+    <apex:sectionHeader title="Accounts" subtitle="List View"/>
+    <apex:pageBlock >
+     
+        <apex:pageBlockTable value="{!acc}" var="key">
+         
+            <apex:column >
+                <apex:facet name="header">Account Name</apex:facet>
+                <apex:outputLink value="/{!key.Id}">{!key.Name}</apex:outputLink>
+            </apex:column>
+            <apex:column value="{!key.AccountNumber}"/>
+            <apex:column value="{!key.Type}"/>    
+         
+        </apex:pageBlockTable>
+     
+    </apex:pageBlock>
+ 
+</apex:page>

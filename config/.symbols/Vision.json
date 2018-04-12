@@ -1,0 +1,486 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "Vision",
+    "innerClasses": [
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": "Prediction",
+            "innerClasses": [],
+            "interfaces": [],
+            "key": "Prediction",
+            "methods": [],
+            "name": "Prediction",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 71
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "label",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 72
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "probability",
+                    "references": [],
+                    "type": "Double"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 70
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "Prediction",
+                "references": [],
+                "type": "Prediction"
+            },
+            "variables": []
+        }
+    ],
+    "interfaces": [],
+    "key": "Vision",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 4
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "predictUrl",
+            "parameters": [
+                {
+                    "name": "url",
+                    "type": "String"
+                },
+                {
+                    "name": "access_token",
+                    "type": "String"
+                },
+                {
+                    "name": "model",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "List",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 7
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "predictBase64",
+            "parameters": [
+                {
+                    "name": "base64String",
+                    "type": "String"
+                },
+                {
+                    "name": "access_token",
+                    "type": "String"
+                },
+                {
+                    "name": "model",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "List",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 10
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "predictBlob",
+            "parameters": [
+                {
+                    "name": "fileBlob",
+                    "type": "Blob"
+                },
+                {
+                    "name": "access_token",
+                    "type": "String"
+                },
+                {
+                    "name": "model",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "List",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 13
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "predictInternal",
+            "parameters": [
+                {
+                    "name": "sample",
+                    "type": "String"
+                },
+                {
+                    "name": "access_token",
+                    "type": "String"
+                },
+                {
+                    "name": "model",
+                    "type": "String"
+                },
+                {
+                    "name": "isBase64",
+                    "type": "Boolean"
+                }
+            ],
+            "references": [],
+            "returnType": "List",
+            "type": null
+        }
+    ],
+    "name": "Vision",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 2
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "VISION_API",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 3
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "PREDICT",
+            "references": [],
+            "type": "String"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 1
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "Vision",
+        "references": [],
+        "type": "Vision"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 54,
+                "line": 4
+            },
+            "modifiers": [],
+            "name": "url",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 66,
+                "line": 4
+            },
+            "modifiers": [],
+            "name": "access_token",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 87,
+                "line": 4
+            },
+            "modifiers": [],
+            "name": "model",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 57,
+                "line": 7
+            },
+            "modifiers": [],
+            "name": "base64String",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 78,
+                "line": 7
+            },
+            "modifiers": [],
+            "name": "access_token",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 99,
+                "line": 7
+            },
+            "modifiers": [],
+            "name": "model",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 53,
+                "line": 10
+            },
+            "modifiers": [],
+            "name": "fileBlob",
+            "references": [],
+            "type": "Blob"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 70,
+                "line": 10
+            },
+            "modifiers": [],
+            "name": "access_token",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 91,
+                "line": 10
+            },
+            "modifiers": [],
+            "name": "model",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 60,
+                "line": 13
+            },
+            "modifiers": [],
+            "name": "sample",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 75,
+                "line": 13
+            },
+            "modifiers": [],
+            "name": "access_token",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 96,
+                "line": 13
+            },
+            "modifiers": [],
+            "name": "model",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 111,
+                "line": 13
+            },
+            "modifiers": [],
+            "name": "isBase64",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 14
+            },
+            "modifiers": [],
+            "name": "contentType",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 16
+            },
+            "modifiers": [],
+            "name": "form64",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 26
+            },
+            "modifiers": [],
+            "name": "formBlob",
+            "references": [],
+            "type": "Blob"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 27
+            },
+            "modifiers": [],
+            "name": "contentLength",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 29
+            },
+            "modifiers": [],
+            "name": "httpRequest",
+            "references": [],
+            "type": "System.HttpRequest"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 38
+            },
+            "modifiers": [],
+            "name": "http",
+            "references": [],
+            "type": "System.Http"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 39
+            },
+            "modifiers": [],
+            "name": "predictions",
+            "references": [],
+            "type": "List<Vision.Prediction>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 41
+            },
+            "modifiers": [],
+            "name": "res",
+            "references": [],
+            "type": "System.HttpResponse"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 43
+            },
+            "modifiers": [],
+            "name": "parser",
+            "references": [],
+            "type": "System.JSONParser"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 48,
+                "line": 53
+            },
+            "modifiers": [],
+            "name": "probability",
+            "references": [],
+            "type": "Vision.Prediction"
+        }
+    ]
+}

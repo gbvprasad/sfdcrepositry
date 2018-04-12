@@ -1,0 +1,803 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/classes/StudentExample.cls",
+			"settings":
+			{
+				"buffer_size": 201,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/aura/Calculator/Calculator.cmp",
+			"settings":
+			{
+				"buffer_size": 1679,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "({\n   \n})",
+			"file": "src/aura/Calculator/CalculatorRenderer.js",
+			"file_size": 2052,
+			"file_write_time": 131659962060000000,
+			"settings":
+			{
+				"buffer_size": 9,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/aura/Calc/CalcController.js",
+			"settings":
+			{
+				"buffer_size": 2053,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/classes/JsonClass.cls",
+			"settings":
+			{
+				"buffer_size": 1851,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/pages/JsonVFPage.page",
+			"settings":
+			{
+				"buffer_size": 1134,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/classes/AccountRest.cls",
+			"settings":
+			{
+				"buffer_size": 1227,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/classes/BatchApexDemo.cls",
+			"settings":
+			{
+				"buffer_size": 1190,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/classes/Add.cls",
+			"settings":
+			{
+				"buffer_size": 206,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/package.xml",
+			"settings":
+			{
+				"buffer_size": 590,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Searching 6 files for \"Add\"\n\n0 matches\n\nSearching 61 files for \"Add\"\n\nD:\\Salesforce\\Helloworld\\config\\.local_store:\n   56          \"mmState\": \"clean\"\n   57      },\n   58:     \"Add.cls\": {\n   59          \"createdById\": \"0057F000001fsdlQAA\",\n   60          \"createdByName\": \"bhanu gullapalli\",\n   61          \"createdDate\": \"2018-03-20T05:06:45.000Z\",\n   62:         \"fileName\": \"unpackaged/classes/Add.cls\",\n   63:         \"fullName\": \"Add\",\n   64          \"id\": \"01p7F00000N9yUDQAZ\",\n   65          \"lastModifiedById\": \"0057F000001fsdlQAA\",\n   ..\n  280          \"mmState\": \"clean\"\n  281      },\n  282:     \"Add.page\": {\n  283          \"createdById\": \"0057F000001fsdlQAA\",\n  284          \"createdByName\": \"bhanu gullapalli\",\n  285          \"createdDate\": \"2018-03-22T06:10:17.000Z\",\n  286:         \"fileName\": \"unpackaged/pages/Add.page\",\n  287:         \"fullName\": \"Add\",\n  288          \"id\": \"0667F000006r9t5QAA\",\n  289          \"lastModifiedById\": \"0057F000001fsdlQAA\",\n\nD:\\Salesforce\\Helloworld\\config\\.symbols\\Add.json:\n    2      \"constructors\": [],\n    3      \"externalReferences\": [],\n    4:     \"id\": \"Add\",\n    5      \"innerClasses\": [],\n    6      \"interfaces\": [],\n    7:     \"key\": \"Add\",\n    8      \"methods\": [\n    9          {\n   ..\n   16                  \"public\"\n   17              ],\n   18:             \"name\": \"add\",\n   19              \"parameters\": [],\n   20              \"references\": [],\n   ..\n   38          }\n   39      ],\n   40:     \"name\": \"Add\",\n   41      \"namespace\": null,\n   42      \"parentClass\": \"\",\n   ..\n   91              \"public\"\n   92          ],\n   93:         \"name\": \"Add\",\n   94          \"references\": [],\n   95:         \"type\": \"Add\"\n   96      },\n   97      \"variables\": []\n\nD:\\Salesforce\\Helloworld\\debug\\logs\\2018-03-19 16-57-43.log:\n   23    Number of Email Invocations: 0 out of 10\n   24    Number of future calls: 0 out of 50\n   25:   Number of queueable jobs added to the queue: 0 out of 50\n   26    Number of Mobile Apex push calls: 0 out of 10\n   27  \n\nD:\\Salesforce\\Helloworld\\debug\\logs\\2018-03-20 10-29-28.log:\n   19    Number of Email Invocations: 0 out of 10\n   20    Number of future calls: 0 out of 50\n   21:   Number of queueable jobs added to the queue: 0 out of 50\n   22    Number of Mobile Apex push calls: 0 out of 10\n   23  \n\nD:\\Salesforce\\Helloworld\\debug\\tests\\HelloWorldTest\\2018-03-19 16-57-43.log:\n   23    Number of Email Invocations: 0 out of 10\n   24    Number of future calls: 0 out of 50\n   25:   Number of queueable jobs added to the queue: 0 out of 50\n   26    Number of Mobile Apex push calls: 0 out of 10\n   27  \n\nD:\\Salesforce\\Helloworld\\src\\aura\\Calc\\CalcController.js:\n    1:  ({ addAction : function(component, event, helper) {\n    2          var num1=component.get(\"v.num1\");\n    3          var num2=component.get(\"v.num2\");\n    4          var num3=num1+num2;\n    5          component.set(\"v.num3\", num3);\n    6:         component.set(\"v.isAdd\", true);\n    7          component.set(\"v.isRefresh\", true);\n    8          component.set(\"v.isMul\", false);\n    .\n   19          component.set(\"v.isDiv\", false);\n   20          component.set(\"v.isSub\", false);\n   21:         component.set(\"v.isAdd\", false);\n   22      },\n   23      substractionAction : function(component, event, helper) {\n   ..\n   30          component.set(\"v.isMul\", false);\n   31          component.set(\"v.isDiv\", false);\n   32:         component.set(\"v.isAdd\", false);\n   33      },\n   34      divisionAction : function(component, event, helper) {\n   ..\n   41          component.set(\"v.isMul\", false);\n   42          component.set(\"v.isSub\", false);\n   43:         component.set(\"v.isAdd\", false);\n   44      },\n   45       \n   ..\n   50          component.set(\"v.isMul\", false);\n   51          component.set(\"v.isSub\", false);\n   52:         component.set(\"v.isAdd\", false);\n   53          component.set(\"v.isRefresh\", false);\n   54      }\n\nD:\\Salesforce\\Helloworld\\src\\aura\\Calculator\\Calculator.cmp:\n    6      <ui:inputNumber label=\"Number 1 \" value=\"{!v.num1}\"/><br/>\n    7      <ui:inputNumber label=\"Number 2 \" value=\"{!v.num2}\"/><br/>\n    8:     <aura:attribute name=\"isAdd\" type=\"Boolean\" default=\"false\"/>\n    9      <aura:attribute name=\"isSub\" type=\"Boolean\" default=\"false\"/>\n   10      <aura:attribute name=\"isMul\" type=\"Boolean\" default=\"false\"/>\n   ..\n   12      <aura:attribute name=\"isRefresh\" type=\"Boolean\" default=\"false\"/>\n   13       \n   14:     <aura:if isTrue=\"{!v.isAdd}\">\n   15:         Addition of Two Numbers is :  {!num3}\n   16          <ui:outputNumber value=\"{!v.num3}\"/>\n   17      </aura:if>\n   ..\n   33      <br/>\n   34      <br/>\n   35:     <ui:button press=\"{!c.addAction}\" label=\"Addition\" />\n   36      <aura:if isTrue=\"{!v.isRefresh}\">\n   37          <ui:button press=\"{!c.refreshAction}\" label=\"Refresh\" />\n\nD:\\Salesforce\\Helloworld\\src\\classes\\Add.cls:\n    1: public class Add {\n    2  public integer aval {set;get;}\n    3  public integer bval {set;get;}\n    4  public integer cval {set;get;}\n    5: public void add(){\n    6  cval=aval+bval;\n    7  }\n\n28 matches across 8 files\n",
+			"settings":
+			{
+				"buffer_size": 5069,
+				"line_ending": "Windows",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "src/pages/StudentExamp.page-meta.xml",
+			"settings":
+			{
+				"buffer_size": 288,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/aura/Calc/Calc.app",
+			"settings":
+			{
+				"buffer_size": 80,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 444.0
+	},
+	"console":
+	{
+		"height": 130.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/Salesforce/Helloworld",
+		"/D/Salesforce/Helloworld/src",
+		"/D/Salesforce/Helloworld/src/aura",
+		"/D/Salesforce/Helloworld/src/aura/Calc",
+		"/D/Salesforce/Helloworld/src/aura/Calculator",
+		"/D/Salesforce/Helloworld/src/classes",
+		"/D/Salesforce/Helloworld/src/pages"
+	],
+	"file_history":
+	[
+		"/D/Salesforce/Helloworld/Helloworld.sublime-project",
+		"/D/Salesforce/Helloworld/src/classes/HelloWorldTest.cls",
+		"/D/Salesforce/Helloworld/src/classes/HelloWorld.cls",
+		"/D/Salesforce/Helloworld/src/pages/StudentExamp.page",
+		"/C/Users/bvgullap/AppData/Local/Temp/Rar$EXa0.807/Data/Packages/User/mavensmate.sublime-settings",
+		"/C/Users/bvgullap/AppData/Local/Temp/Rar$EXa0.807/Data/Packages/MavensMate/mavensmate.sublime-settings"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+			"D:\\Salesforce\\Helloworld",
+			"D:\\Salesforce\\Helloworld\\src\\pages"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Add"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 11,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/classes/StudentExample.cls",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 201,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								201,
+								201
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MavensMate/sublime/lang/Apex.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/aura/Calculator/Calculator.cmp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1679,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1679,
+								1679
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/aura/Calculator/CalculatorRenderer.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6,
+								6
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/aura/Calc/CalcController.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2053,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1482,
+								1482
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/classes/JsonClass.cls",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1851,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								467,
+								467
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MavensMate/sublime/lang/Apex.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/pages/JsonVFPage.page",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1134,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MavensMate/sublime/lang/Visualforce.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/classes/AccountRest.cls",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1227,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1227,
+								1227
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MavensMate/sublime/lang/Apex.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "src/classes/BatchApexDemo.cls",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1190,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1190,
+								1190
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MavensMate/sublime/lang/Apex.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "src/classes/Add.cls",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 206,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								206,
+								206
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MavensMate/sublime/lang/Apex.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "src/package.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 590,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5069,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										176,
+										179
+									],
+									[
+										397,
+										400
+									],
+									[
+										435,
+										438
+									],
+									[
+										607,
+										610
+									],
+									[
+										827,
+										830
+									],
+									[
+										866,
+										869
+									],
+									[
+										1110,
+										1113
+									],
+									[
+										1195,
+										1198
+									],
+									[
+										1330,
+										1333
+									],
+									[
+										1467,
+										1470
+									],
+									[
+										1609,
+										1612
+									],
+									[
+										1672,
+										1675
+									],
+									[
+										1909,
+										1912
+									],
+									[
+										2195,
+										2198
+									],
+									[
+										2497,
+										2500
+									],
+									[
+										2662,
+										2665
+									],
+									[
+										2924,
+										2927
+									],
+									[
+										3172,
+										3175
+									],
+									[
+										3405,
+										3408
+									],
+									[
+										3634,
+										3637
+									],
+									[
+										3811,
+										3814
+									],
+									[
+										4127,
+										4130
+									],
+									[
+										4441,
+										4444
+									],
+									[
+										4463,
+										4466
+									],
+									[
+										4648,
+										4651
+									],
+									[
+										4667,
+										4670
+									],
+									[
+										4864,
+										4867
+									],
+									[
+										5003,
+										5006
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								40,
+								40
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 2,
+							"result_base_dir": "",
+							"result_file_regex": "^([^ \t].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "src/pages/StudentExamp.page-meta.xml",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 288,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "src/aura/Calc/Calc.app",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 80,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								80,
+								80
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.MavensMate-OutputPanel":
+	{
+		"height": 102.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Helloworld.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 247.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

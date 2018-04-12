@@ -1,0 +1,94 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 8,
+                "line": 5
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "List_sum",
+            "parameters": [],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "List_sum",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "List_sum",
+    "methods": [],
+    "name": "List_sum",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 2
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "ravi",
+            "references": [],
+            "type": "List"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 3
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "min",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 4
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "max",
+            "references": [],
+            "type": "Integer"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 1
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "List_sum",
+        "references": [],
+        "type": "List_sum"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 13,
+                "line": 14
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        }
+    ]
+}

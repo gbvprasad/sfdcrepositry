@@ -1,0 +1,29 @@
+42.0 APEX_CODE,DEBUG;APEX_PROFILING,INFO;CALLOUT,INFO;DB,INFO;SYSTEM,DEBUG;VALIDATION,INFO;VISUALFORCE,DEBUG;WAVE,INFO;WORKFLOW,INFO
+09:35:29.0 (343980)|USER_INFO|[EXTERNAL]|0057F000001fsdl|sfdcdevinstance.gbvprasad@gmail.com|Pacific Standard Time|GMT-07:00
+09:35:29.0 (401359)|EXECUTION_STARTED
+09:35:29.0 (407808)|CODE_UNIT_STARTED|[EXTERNAL]|VisualForce View State
+09:35:29.0 (6503001)|CODE_UNIT_FINISHED|VisualForce View State
+09:35:29.0 (7352139)|EXECUTION_FINISHED
+09:35:29.9 (9246807)|USER_INFO|[EXTERNAL]|0057F000001fsdl|sfdcdevinstance.gbvprasad@gmail.com|Pacific Standard Time|GMT-07:00
+09:35:29.9 (9265119)|EXECUTION_STARTED
+09:35:29.9 (9268219)|CODE_UNIT_STARTED|[EXTERNAL]|VF: /apex/editStaticResource.apexp
+09:35:29.12 (12656235)|SYSTEM_MODE_ENTER|false
+09:35:29.64 (64828345)|CUMULATIVE_LIMIT_USAGE
+09:35:29.64 (64828345)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+09:35:29.64 (64828345)|CUMULATIVE_LIMIT_USAGE_END
+
+09:35:29.9 (64870892)|CODE_UNIT_FINISHED|VF: /apex/editStaticResource.apexp
+09:35:29.9 (65695067)|EXECUTION_FINISHED

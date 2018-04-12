@@ -1,0 +1,43 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 9,
+                "line": 2
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "DisplayErrorMessage",
+            "parameters": [],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "DisplayErrorMessage",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "DisplayErrorMessage",
+    "methods": [],
+    "name": "DisplayErrorMessage",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 1
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "DisplayErrorMessage",
+        "references": [],
+        "type": "DisplayErrorMessage"
+    },
+    "variables": []
+}

@@ -1,0 +1,18 @@
+<apex:page controller="PC1" >
+<apex:form >
+<apex:commandButton value="submit" action="{!disp}"/>
+<apex:pageBlock >
+<apex:pageBlockTable value="{!acc}" var="a">
+<apex:column value="{!a.name}"/>
+<apex:column value="{!a.phone}"/>
+<apex:column value="{!a.industry}"/>
+<apex:column headerValue="Lastname">
+<apex:repeat value="{!a.contacts}" var="b">
+{!b}<br/>
+
+</apex:repeat>
+</apex:column>
+</apex:pageBlockTable>
+</apex:pageBlock>
+</apex:form>
+</apex:page>

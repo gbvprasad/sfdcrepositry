@@ -1,0 +1,159 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 7
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "DebugInPageController",
+            "parameters": [],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "DebugInPageController",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "DebugInPageController",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 26
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "logMessage",
+            "parameters": [
+                {
+                    "name": "msg",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 34
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getMsgs",
+            "parameters": [],
+            "references": [],
+            "returnType": "List",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 39
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getTop10Opps",
+            "parameters": [],
+            "references": [],
+            "returnType": "List",
+            "type": null
+        }
+    ],
+    "name": "DebugInPageController",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 3
+            },
+            "modifiers": [
+                "public",
+                "transient"
+            ],
+            "name": "top10Opps",
+            "references": [],
+            "type": "List"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 4
+            },
+            "modifiers": [
+                "public",
+                "transient"
+            ],
+            "name": "msgs",
+            "references": [],
+            "type": "List"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 5
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "debug",
+            "references": [],
+            "type": "Boolean"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 1
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "DebugInPageController",
+        "references": [],
+        "type": "DebugInPageController"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 9
+            },
+            "modifiers": [],
+            "name": "debugStr",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 26
+            },
+            "modifiers": [],
+            "name": "msg",
+            "references": [],
+            "type": "String"
+        }
+    ]
+}

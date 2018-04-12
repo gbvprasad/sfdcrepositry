@@ -1,0 +1,482 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "AsyncEcEuropaEuTaxudViesServicesCheckva",
+    "innerClasses": [
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": "checkVatApproxResponse_elementFuture",
+            "innerClasses": [],
+            "interfaces": [],
+            "key": "checkVatApproxResponse_elementFuture",
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 82,
+                        "line": 5
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "getValue",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "checkVatApproxResponse_element",
+                    "type": null
+                }
+            ],
+            "name": "checkVatApproxResponse_elementFuture",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 4
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "checkVatApproxResponse_elementFuture",
+                "references": [],
+                "type": "checkVatApproxResponse_elementFuture"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 79,
+                        "line": 6
+                    },
+                    "modifiers": [],
+                    "name": "response",
+                    "references": [],
+                    "type": "ecEuropaEuTaxudViesServicesCheckva.checkVatApproxResponse_element"
+                }
+            ]
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": "checkVatResponse_elementFuture",
+            "innerClasses": [],
+            "interfaces": [],
+            "key": "checkVatResponse_elementFuture",
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 76,
+                        "line": 11
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "getValue",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "checkVatResponse_element",
+                    "type": null
+                }
+            ],
+            "name": "checkVatResponse_elementFuture",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 10
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "checkVatResponse_elementFuture",
+                "references": [],
+                "type": "checkVatResponse_elementFuture"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 73,
+                        "line": 12
+                    },
+                    "modifiers": [],
+                    "name": "response",
+                    "references": [],
+                    "type": "ecEuropaEuTaxudViesServicesCheckva.checkVatResponse_element"
+                }
+            ]
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": "AsynccheckVatPort",
+            "innerClasses": [],
+            "interfaces": [],
+            "key": "AsynccheckVatPort",
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 93,
+                        "line": 22
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "beginCheckVatApprox",
+                    "parameters": [
+                        {
+                            "name": "continuation",
+                            "type": "Continuation"
+                        },
+                        {
+                            "name": "countryCode",
+                            "type": "String"
+                        },
+                        {
+                            "name": "vatNumber",
+                            "type": "String"
+                        },
+                        {
+                            "name": "traderName",
+                            "type": "String"
+                        },
+                        {
+                            "name": "traderCompanyType",
+                            "type": "String"
+                        },
+                        {
+                            "name": "traderStreet",
+                            "type": "String"
+                        },
+                        {
+                            "name": "traderPostcode",
+                            "type": "String"
+                        },
+                        {
+                            "name": "traderCity",
+                            "type": "String"
+                        },
+                        {
+                            "name": "requesterCountryCode",
+                            "type": "String"
+                        },
+                        {
+                            "name": "requesterVatNumber",
+                            "type": "String"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "checkVatApproxResponse_elementFuture",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 87,
+                        "line": 47
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "beginCheckVat",
+                    "parameters": [
+                        {
+                            "name": "continuation",
+                            "type": "Continuation"
+                        },
+                        {
+                            "name": "countryCode",
+                            "type": "String"
+                        },
+                        {
+                            "name": "vatNumber",
+                            "type": "String"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "checkVatResponse_elementFuture",
+                    "type": null
+                }
+            ],
+            "name": "AsynccheckVatPort",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 17
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "endpoint_x",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 35,
+                        "line": 18
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "inputHttpHeaders_x",
+                    "references": [],
+                    "type": "Map"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 19
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "clientCertName_x",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 20
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "timeout_x",
+                    "references": [],
+                    "type": "Integer"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 21
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "ns_map_type_info",
+                    "references": [],
+                    "type": "List"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 16
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "AsynccheckVatPort",
+                "references": [],
+                "type": "AsynccheckVatPort"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 133,
+                        "line": 22
+                    },
+                    "modifiers": [],
+                    "name": "continuation",
+                    "references": [],
+                    "type": "System.Continuation"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 153,
+                        "line": 22
+                    },
+                    "modifiers": [],
+                    "name": "countryCode",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 172,
+                        "line": 22
+                    },
+                    "modifiers": [],
+                    "name": "vatNumber",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 189,
+                        "line": 22
+                    },
+                    "modifiers": [],
+                    "name": "traderName",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 207,
+                        "line": 22
+                    },
+                    "modifiers": [],
+                    "name": "traderCompanyType",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 232,
+                        "line": 22
+                    },
+                    "modifiers": [],
+                    "name": "traderStreet",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 252,
+                        "line": 22
+                    },
+                    "modifiers": [],
+                    "name": "traderPostcode",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 274,
+                        "line": 22
+                    },
+                    "modifiers": [],
+                    "name": "traderCity",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 292,
+                        "line": 22
+                    },
+                    "modifiers": [],
+                    "name": "requesterCountryCode",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 320,
+                        "line": 22
+                    },
+                    "modifiers": [],
+                    "name": "requesterVatNumber",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 71,
+                        "line": 23
+                    },
+                    "modifiers": [],
+                    "name": "request_x",
+                    "references": [],
+                    "type": "ecEuropaEuTaxudViesServicesCheckva.checkVatApprox_element"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 121,
+                        "line": 47
+                    },
+                    "modifiers": [],
+                    "name": "continuation",
+                    "references": [],
+                    "type": "System.Continuation"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 141,
+                        "line": 47
+                    },
+                    "modifiers": [],
+                    "name": "countryCode",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 160,
+                        "line": 47
+                    },
+                    "modifiers": [],
+                    "name": "vatNumber",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 65,
+                        "line": 48
+                    },
+                    "modifiers": [],
+                    "name": "request_x",
+                    "references": [],
+                    "type": "ecEuropaEuTaxudViesServicesCheckva.checkVat_element"
+                }
+            ]
+        }
+    ],
+    "interfaces": [],
+    "key": "AsyncEcEuropaEuTaxudViesServicesCheckva",
+    "methods": [],
+    "name": "AsyncEcEuropaEuTaxudViesServicesCheckva",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 3
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "AsyncEcEuropaEuTaxudViesServicesCheckva",
+        "references": [],
+        "type": "AsyncEcEuropaEuTaxudViesServicesCheckva"
+    },
+    "variables": []
+}

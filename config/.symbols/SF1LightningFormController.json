@@ -1,0 +1,103 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "SF1LightningFormController",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "SF1LightningFormController",
+    "methods": [
+        {
+            "annotations": [
+                {
+                    "name": "RemoteAction"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 4
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "CreateAccountAndContact",
+            "parameters": [
+                {
+                    "name": "accountJSON",
+                    "type": "String"
+                },
+                {
+                    "name": "contactJSON",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "Id",
+            "type": null
+        }
+    ],
+    "name": "SF1LightningFormController",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 1
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "SF1LightningFormController",
+        "references": [],
+        "type": "SF1LightningFormController"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 53,
+                "line": 4
+            },
+            "modifiers": [],
+            "name": "accountJSON",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 73,
+                "line": 4
+            },
+            "modifiers": [],
+            "name": "contactJSON",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 6
+            },
+            "modifiers": [],
+            "name": "acc",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 9
+            },
+            "modifiers": [],
+            "name": "cont",
+            "references": [],
+            "type": "Contact"
+        }
+    ]
+}

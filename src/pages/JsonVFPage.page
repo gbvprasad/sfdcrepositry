@@ -1,0 +1,42 @@
+<apex:page controller="JSONClass">
+     
+    <!-- 
+    /**
+     * Webkul Software.
+     *
+     * @category  Webkul
+     * @author    Webkul
+     * @copyright Copyright (c) 2010-2016 Webkul Software Private Limited (https://webkul.com)
+     * @license   https://store.webkul.com/license.html
+     */
+     -->
+ 
+    <apex:form >
+         
+        <strong>Output through the list in data table</strong>:<br/><br/>   
+         
+        <apex:dataTable value="{!acc}" var="key">
+             
+            <apex:column >
+                <apex:facet name="header">Account Name</apex:facet>
+                {!key.Name}
+            </apex:column>
+             
+            <apex:column >
+                <apex:facet name="header">Account Number</apex:facet>
+                {!key.AccountNumber}
+            </apex:column>
+ 
+        </apex:dataTable>
+         
+        <br/><br/>
+         
+        <strong>Output Via JSON serialize method</strong> :<br/><br/> {!jsonSerial}
+         
+        <br/><br/>
+         
+        <strong>Output Via JSON Generator method</strong> :<br/><br/> {!jsonGen}
+         
+    </apex:form>
+     
+</apex:page>

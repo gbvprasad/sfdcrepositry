@@ -1,0 +1,82 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 8,
+                "line": 5
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "Wrapper11",
+            "parameters": [],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "Wrapper11",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "Wrapper11",
+    "methods": [],
+    "name": "Wrapper11",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 2
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "sal",
+            "references": [],
+            "type": "Decimal"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 3
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "exp",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 4
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "W1",
+            "references": [],
+            "type": "Wrapper1"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 1
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "Wrapper11",
+        "references": [],
+        "type": "Wrapper11"
+    },
+    "variables": []
+}

@@ -1,0 +1,106 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "kotesh",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "kotesh",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 13,
+                "line": 5
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "calculate",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "kotesh",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 2
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "exp",
+            "references": [],
+            "type": "Decimal"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 3
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "sal",
+            "references": [],
+            "type": "Decimal"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 4
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "bonus",
+            "references": [],
+            "type": "Decimal"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 1
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "kotesh",
+        "references": [],
+        "type": "kotesh"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 9
+            },
+            "modifiers": [],
+            "name": "ss",
+            "references": [],
+            "type": "ApexPages.Message"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 12
+            },
+            "modifiers": [],
+            "name": "ms",
+            "references": [],
+            "type": "ApexPages.Message"
+        }
+    ]
+}

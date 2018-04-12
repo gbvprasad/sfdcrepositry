@@ -1,0 +1,7 @@
+<apex:page controller="Array1">
+{!ravi[0]}<br/>
+{!ravi[1]}<br/>
+<!-- {!ravi[2]}<br/>--Error: It will not display because we have not assigned the value-->
+{!ravi[1]}<br/>
+{!ravi}<br/>
+</apex:page>

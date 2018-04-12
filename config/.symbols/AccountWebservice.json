@@ -1,0 +1,43 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 9,
+                "line": 2
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "AccountWebservice",
+            "parameters": [],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "AccountWebservice",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "AccountWebservice",
+    "methods": [],
+    "name": "AccountWebservice",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 1
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "AccountWebservice",
+        "references": [],
+        "type": "AccountWebservice"
+    },
+    "variables": []
+}

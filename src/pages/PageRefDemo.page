@@ -1,0 +1,10 @@
+<apex:page showHeader="true" sidebar="true" controller="shiv">
+<apex:form >
+<apex:commandButton value="create" action="{!create}"/>
+<apex:pageblock >
+<apex:inputfield value="{!acc.Name}"></apex:inputfield>
+<apex:inputfield value="{!acc.Industry}"></apex:inputfield>
+<apex:inputfield value="{!acc.Rating}"></apex:inputfield>
+</apex:pageblock>
+</apex:form>
+</apex:page>

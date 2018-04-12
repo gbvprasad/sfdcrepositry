@@ -1,0 +1,11 @@
+<apex:page controller="Fdependency" >
+<apex:form >
+<apex:selectList value="{!selected}" size="1">
+<apex:actionSupport event="onchange" action="{!ravi}"/>
+<apex:selectOptions value="{!ss}"></apex:selectOptions>
+</apex:selectList>
+<apex:selectList size="1" >
+<apex:selectOptions value="{!sss}"></apex:selectOptions>
+</apex:selectList>
+</apex:form>
+</apex:page>

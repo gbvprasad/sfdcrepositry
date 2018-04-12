@@ -1,0 +1,32 @@
+42.0 APEX_CODE,DEBUG;APEX_PROFILING,INFO;CALLOUT,INFO;DB,INFO;SYSTEM,DEBUG;VALIDATION,INFO;VISUALFORCE,DEBUG;WAVE,INFO;WORKFLOW,INFO
+09:35:27.0 (63993)|USER_INFO|[EXTERNAL]|0057F000001fsdl|sfdcdevinstance.gbvprasad@gmail.com|Pacific Standard Time|GMT-07:00
+09:35:27.0 (94002)|EXECUTION_STARTED
+09:35:27.0 (100259)|CODE_UNIT_STARTED|[EXTERNAL]|VisualForce View State
+09:35:27.0 (5040907)|CODE_UNIT_FINISHED|VisualForce View State
+09:35:27.0 (5856012)|EXECUTION_FINISHED
+09:35:27.7 (7519826)|USER_INFO|[EXTERNAL]|0057F000001fsdl|sfdcdevinstance.gbvprasad@gmail.com|Pacific Standard Time|GMT-07:00
+09:35:27.7 (7534244)|EXECUTION_STARTED
+09:35:27.7 (7538209)|CODE_UNIT_STARTED|[EXTERNAL]|VF: /apex/editStaticResource.apexp
+09:35:27.9 (9847087)|SYSTEM_MODE_ENTER|false
+09:35:27.9 (12571451)|VF_PAGE_MESSAGE|Required fields are missing: [MIME Type]
+09:35:27.7 (23153421)|VF_SERIALIZE_VIEWSTATE_BEGIN|
+09:35:27.7 (25595772)|VF_SERIALIZE_VIEWSTATE_END
+09:35:27.29 (29700891)|CUMULATIVE_LIMIT_USAGE
+09:35:27.29 (29700891)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+09:35:27.29 (29700891)|CUMULATIVE_LIMIT_USAGE_END
+
+09:35:27.7 (29734625)|CODE_UNIT_FINISHED|VF: /apex/editStaticResource.apexp
+09:35:27.7 (30500364)|EXECUTION_FINISHED

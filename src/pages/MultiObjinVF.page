@@ -1,0 +1,18 @@
+<apex:page controller="multipleObjects">
+<apex:form >
+<apex:commandButton value="create" action="{!create}"/>
+<apex:pageblock Title="Account" >
+<apex:pageBlockSection collapsible="true" columns="1">
+<apex:inputField value="{!acc.name}"/>
+</apex:pageBlockSection>
+</apex:pageblock>
+<apex:pageblock Title="Contact">
+<apex:inputField value="{!con.lastname}"/>
+</apex:pageblock>
+<apex:pageblock Title="Oppertunity">
+<apex:inputField value="{!opty.name}"/>
+<apex:inputField value="{!opty.stagename}"/>
+<apex:inputField value="{!opty.closedate}"/>
+</apex:pageblock>
+</apex:form>
+</apex:page>

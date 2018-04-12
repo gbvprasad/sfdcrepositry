@@ -1,0 +1,227 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 8,
+                "line": 9
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "Map1",
+            "parameters": [],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "Map1",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "Map1",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 13,
+                "line": 17
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "create",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 13,
+                "line": 20
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "search",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 13,
+                "line": 23
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "modify",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 13,
+                "line": 28
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "save",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 13,
+                "line": 31
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "savenew",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 13,
+                "line": 36
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "del",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 13,
+                "line": 41
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "undel",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "Map1",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 2
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "ravi",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 3
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "ravi1",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 15,
+                "line": 5
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "name",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 15,
+                "line": 6
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "city",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 15,
+                "line": 7
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "find",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 15,
+                "line": 8
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "result",
+            "references": [],
+            "type": "String"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 1
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "Map1",
+        "references": [],
+        "type": "Map1"
+    },
+    "variables": []
+}

@@ -1,0 +1,10 @@
+<apex:page showHeader="false" controller="EmployeeSalary" >
+<apex:form >
+    <apex:pageBlock >
+        <apex:pageblockTable value="{!employeeList}" var="e">
+            <apex:column value="{!e.employeName}"/>
+            <apex:column value="{!e.salary}"/>
+        </apex:pageblockTable>
+    </apex:pageBlock>
+</apex:form>    
+</apex:page>

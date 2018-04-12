@@ -1,0 +1,57 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "PC1",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "PC1",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 13,
+                "line": 3
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "disp",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "PC1",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 2
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "acc",
+            "references": [],
+            "type": "List"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 1
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "PC1",
+        "references": [],
+        "type": "PC1"
+    },
+    "variables": []
+}

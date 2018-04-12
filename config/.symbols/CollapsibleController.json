@@ -1,0 +1,44 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "CollapsibleController",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "CollapsibleController",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 9
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getAccounts",
+            "parameters": [],
+            "references": [],
+            "returnType": "List",
+            "type": null
+        }
+    ],
+    "name": "CollapsibleController",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 6
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "CollapsibleController",
+        "references": [],
+        "type": "CollapsibleController"
+    },
+    "variables": []
+}

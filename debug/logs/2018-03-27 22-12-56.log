@@ -1,0 +1,85 @@
+42.0 APEX_CODE,FINEST;APEX_PROFILING,INFO;CALLOUT,INFO;DB,INFO;SYSTEM,DEBUG;VALIDATION,INFO;VISUALFORCE,INFO;WAVE,INFO;WORKFLOW,INFO
+Execute Anonymous: PushTopic pushTopic=new PushTopic();
+Execute Anonymous: 
+Execute Anonymous: pushTopic.Name = 'AccountUpdates';
+Execute Anonymous: 
+Execute Anonymous: pushTopic.Query = 'SELECT Id, Name,type from Account';
+Execute Anonymous: 
+Execute Anonymous: pushTopic.ApiVersion = 36.0;
+Execute Anonymous: 
+Execute Anonymous: pushTopic.NotifyForOperationCreate = true;
+Execute Anonymous: 
+Execute Anonymous: pushTopic.NotifyForOperationUpdate = true;
+Execute Anonymous: 
+Execute Anonymous: pushTopic.NotifyForOperationUndelete = true;
+Execute Anonymous: 
+Execute Anonymous: pushTopic.NotifyForOperationDelete = true;
+Execute Anonymous: 
+Execute Anonymous: pushTopic.NotifyForFields = 'Referenced';
+Execute Anonymous: 
+Execute Anonymous: insert pushTopic;
+Execute Anonymous: 
+Execute Anonymous:  
+09:42:48.1 (1124490)|USER_INFO|[EXTERNAL]|0057F000001fsdl|sfdcdevinstance.gbvprasad@gmail.com|Pacific Standard Time|GMT-07:00
+09:42:48.1 (1147538)|EXECUTION_STARTED
+09:42:48.1 (1151856)|CODE_UNIT_STARTED|[EXTERNAL]|execute_anonymous_apex
+09:42:48.1 (1288570)|VARIABLE_SCOPE_BEGIN|[1]|pushTopic|PushTopic|true|false
+09:42:48.1 (1411578)|HEAP_ALLOCATE|[72]|Bytes:3
+09:42:48.1 (1451803)|HEAP_ALLOCATE|[77]|Bytes:152
+09:42:48.1 (1465675)|HEAP_ALLOCATE|[342]|Bytes:408
+09:42:48.1 (1477335)|HEAP_ALLOCATE|[355]|Bytes:408
+09:42:48.1 (1487827)|HEAP_ALLOCATE|[467]|Bytes:48
+09:42:48.1 (1517992)|HEAP_ALLOCATE|[139]|Bytes:6
+09:42:48.1 (1533104)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:24
+09:42:48.1 (1662410)|STATEMENT_EXECUTE|[1]
+09:42:48.1 (1665208)|STATEMENT_EXECUTE|[1]
+09:42:48.1 (1694905)|HEAP_ALLOCATE|[1]|Bytes:4
+09:42:48.1 (1824528)|VARIABLE_ASSIGNMENT|[1]|pushTopic|{}|0x3bb2f9d5
+09:42:48.1 (1832115)|STATEMENT_EXECUTE|[3]
+09:42:48.1 (1835544)|HEAP_ALLOCATE|[3]|Bytes:14
+09:42:48.1 (1893709)|VARIABLE_ASSIGNMENT|[3]|this.Name|"AccountUpdates"|0x3bb2f9d5
+09:42:48.1 (1900136)|STATEMENT_EXECUTE|[5]
+09:42:48.1 (1902576)|HEAP_ALLOCATE|[5]|Bytes:33
+09:42:48.1 (1929115)|VARIABLE_ASSIGNMENT|[5]|this.Query|"SELECT Id, Name,type (13 more) ..."|0x3bb2f9d5
+09:42:48.1 (1935275)|STATEMENT_EXECUTE|[7]
+09:42:48.1 (1937491)|HEAP_ALLOCATE|[7]|Bytes:4
+09:42:48.1 (1968510)|HEAP_ALLOCATE|[7]|Bytes:28
+09:42:48.1 (1998218)|VARIABLE_ASSIGNMENT|[7]|this.ApiVersion|36.0|0x3bb2f9d5
+09:42:48.1 (2004574)|STATEMENT_EXECUTE|[9]
+09:42:48.1 (2036596)|HEAP_ALLOCATE|[50]|Bytes:5
+09:42:48.1 (2056717)|HEAP_ALLOCATE|[56]|Bytes:5
+09:42:48.1 (2063363)|HEAP_ALLOCATE|[64]|Bytes:7
+09:42:48.1 (2096757)|VARIABLE_ASSIGNMENT|[9]|this.NotifyForOperationCreate|true|0x3bb2f9d5
+09:42:48.1 (2103128)|STATEMENT_EXECUTE|[11]
+09:42:48.1 (2119660)|VARIABLE_ASSIGNMENT|[11]|this.NotifyForOperationUpdate|true|0x3bb2f9d5
+09:42:48.1 (2125283)|STATEMENT_EXECUTE|[13]
+09:42:48.1 (2140210)|VARIABLE_ASSIGNMENT|[13]|this.NotifyForOperationUndelete|true|0x3bb2f9d5
+09:42:48.1 (2146292)|STATEMENT_EXECUTE|[15]
+09:42:48.1 (2161255)|VARIABLE_ASSIGNMENT|[15]|this.NotifyForOperationDelete|true|0x3bb2f9d5
+09:42:48.1 (2166765)|STATEMENT_EXECUTE|[17]
+09:42:48.1 (2170036)|HEAP_ALLOCATE|[17]|Bytes:10
+09:42:48.1 (2189649)|VARIABLE_ASSIGNMENT|[17]|this.NotifyForFields|"Referenced"|0x3bb2f9d5
+09:42:48.1 (2195171)|STATEMENT_EXECUTE|[19]
+09:42:48.1 (2225100)|HEAP_ALLOCATE|[19]|Bytes:8
+09:42:48.1 (2234589)|DML_BEGIN|[19]|Op:Insert|Type:PushTopic|Rows:1
+09:42:48.1 (2267947)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+09:42:48.1 (96185815)|DML_END|[19]
+09:42:48.108 (108076722)|CUMULATIVE_LIMIT_USAGE
+09:42:48.108 (108076722)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 1 out of 150
+  Number of DML rows: 1 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+09:42:48.108 (108076722)|CUMULATIVE_LIMIT_USAGE_END
+
+09:42:48.1 (108119214)|CODE_UNIT_FINISHED|execute_anonymous_apex
+09:42:48.1 (108993982)|EXECUTION_FINISHED

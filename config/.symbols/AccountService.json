@@ -1,0 +1,103 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "AccountService",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "AccountService",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 3
+            },
+            "modifiers": [
+                "webService",
+                "static",
+                "global"
+            ],
+            "name": "createCustomer",
+            "parameters": [
+                {
+                    "name": "name",
+                    "type": "String"
+                },
+                {
+                    "name": "phone",
+                    "type": "String"
+                },
+                {
+                    "name": "city",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        }
+    ],
+    "name": "AccountService",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 1
+        },
+        "modifiers": [
+            "global"
+        ],
+        "name": "AccountService",
+        "references": [],
+        "type": "AccountService"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 51,
+                "line": 3
+            },
+            "modifiers": [],
+            "name": "name",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 64,
+                "line": 3
+            },
+            "modifiers": [],
+            "name": "phone",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 78,
+                "line": 3
+            },
+            "modifiers": [],
+            "name": "city",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 5
+            },
+            "modifiers": [],
+            "name": "a",
+            "references": [],
+            "type": "Account"
+        }
+    ]
+}

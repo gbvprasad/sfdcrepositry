@@ -1,0 +1,98 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 8,
+                "line": 5
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "multipleObjects",
+            "parameters": [],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "multipleObjects",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "multipleObjects",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 13,
+                "line": 10
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "create",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "multipleObjects",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 2
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "acc",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 3
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "con",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 4
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "opty",
+            "references": [],
+            "type": "Opportunity"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 1
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "multipleObjects",
+        "references": [],
+        "type": "multipleObjects"
+    },
+    "variables": []
+}

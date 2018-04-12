@@ -1,0 +1,43 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 9,
+                "line": 2
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "SimpleClass",
+            "parameters": [],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "SimpleClass",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "SimpleClass",
+    "methods": [],
+    "name": "SimpleClass",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 1
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "SimpleClass",
+        "references": [],
+        "type": "SimpleClass"
+    },
+    "variables": []
+}

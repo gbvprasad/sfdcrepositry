@@ -1,0 +1,215 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 8,
+                "line": 8
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "Fdependency",
+            "parameters": [],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "Fdependency",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "Fdependency",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 13,
+                "line": 24
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "ravi",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "Fdependency",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 2
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "resmap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 3
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "s1",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 4
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "s2",
+            "references": [],
+            "type": "List"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 5
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "ss",
+            "references": [],
+            "type": "List"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 6
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "sss",
+            "references": [],
+            "type": "List"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 15,
+                "line": 7
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "selected",
+            "references": [],
+            "type": "String"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 1
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "Fdependency",
+        "references": [],
+        "type": "Fdependency"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 12
+            },
+            "modifiers": [],
+            "name": "hp",
+            "references": [],
+            "type": "List<String>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 13
+            },
+            "modifiers": [],
+            "name": "bp",
+            "references": [],
+            "type": "List<String>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 14
+            },
+            "modifiers": [],
+            "name": "cp",
+            "references": [],
+            "type": "List<String>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 19
+            },
+            "modifiers": [],
+            "name": "s",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 20
+            },
+            "modifiers": [],
+            "name": "l",
+            "references": [],
+            "type": "System.SelectOption"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 27
+            },
+            "modifiers": [],
+            "name": "s0",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 28
+            },
+            "modifiers": [],
+            "name": "l1",
+            "references": [],
+            "type": "System.SelectOption"
+        }
+    ]
+}

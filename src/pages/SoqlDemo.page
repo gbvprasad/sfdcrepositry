@@ -1,0 +1,27 @@
+<apex:page controller="SOQL1">
+<apex:form >
+<apex:pageblock Title="Actions on Account">
+<apex:commandButton value="Limit=5" action="{!Slimit}"/><br/><br/>
+Enter the Limit:<apex:inputtext value="{!count}"/>
+<apex:commandButton value="Dynamic Limit" action="{!Dlimit}"/><br/><br/>
+<apex:commandButton value="Specific_Where" action="{!specific}"/><br/><br/>
+Enter the Industry:<apex:inputtext value="{!data}"/>
+<apex:commandButton value="Specific_Where_Dynamic"
+action="{!Dspecific}"/><br/><br/>
+</apex:pageblock>
+<apex:pageblock Title="Account">
+<apex:pageblocktable Value="{!acc}" var="a">
+<apex:column >
+<apex:inputcheckbox ></apex:inputcheckbox>
+<apex:facet name="Header">
+<apex:inputcheckbox ></apex:inputcheckbox>
+</apex:facet>
+</apex:column>
+<apex:column value="{!a.name}" headervalue="Name"/>
+<apex:column value="{!a.phone}" headervalue="phone"/>
+<apex:column value="{!a.industry}" headervalue="industry"/>
+<apex:column value="{!a.rating}" headervalue="rating"/>
+</apex:pageblocktable>
+</apex:pageblock>
+</apex:form>
+</apex:page>

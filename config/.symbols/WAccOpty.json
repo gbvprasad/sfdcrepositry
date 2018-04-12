@@ -1,0 +1,100 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 8,
+                "line": 4
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "WAccOpty",
+            "parameters": [],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "WAccOpty",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "WAccOpty",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 13,
+                "line": 8
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "accs",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 13,
+                "line": 13
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "optys",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "WAccOpty",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 13,
+                "line": 2
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "acc",
+            "references": [],
+            "type": "Wacc"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 3
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "opty",
+            "references": [],
+            "type": "Wopty"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 1
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "WAccOpty",
+        "references": [],
+        "type": "WAccOpty"
+    },
+    "variables": []
+}

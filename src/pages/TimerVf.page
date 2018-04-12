@@ -1,0 +1,23 @@
+<apex:page sidebar="false" showHeader="false" id="page1">
+<apex:form id="form1">
+<script>
+var startTimer;
+function stopTime() {
+    clearInterval(startTimer);
+}
+function startTime() {
+    var sec = 0;
+    startTimer = setInterval(
+    function () {
+        sec = sec + 1;
+        document.getElementById("displayTime").innerHTML =  sec + " Seconds!!!";
+    }, 1000);
+}
+</script>
+<body >
+<div><b>Timer :</b><b id="displayTime" style="Color:red;"></b></div>
+<input type="button" value="Start Timer" onclick="startTime()"/>
+<input type="button" value="Stop Timer" onclick="stopTime()"/>
+</body>
+</apex:form>
+</apex:page>
